@@ -1,0 +1,12 @@
+h3{
+    text-align: center;
+}
+.menuCategory{
+}
+.menuCategoryItem div{
+    /* background-color: aqua; */
+    padding:40px;
+    /* border-radius: 50%; */
+    width:100px;
+    height:100px;
+}

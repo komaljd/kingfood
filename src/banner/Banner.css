@@ -1,0 +1,23 @@
+/* .carousel-item img{
+    max-width: 300px;
+    height: 300px;
+} */
+
+
+
+.imgSize{
+    width: 100%;
+    max-width: 3000px;
+}
+
+.carousel_caption{
+    padding-right: 10%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.BannerHeading h2{
+    font-family: 'Bebas Neue', sans-serif;
+}

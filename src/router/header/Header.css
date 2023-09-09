@@ -1,0 +1,58 @@
+
+.main-header{
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cart #search{
+    background-color: #B3B3B3;
+    border: inherit;
+}
+.cart span {
+    margin: 10px 20px;
+    color: #B3B3B3;
+}
+
+.cart span:hover{
+    color: #fff;
+    transition: 1s ease-in-out;
+}
+
+.cart {
+    display: flex;
+}
+
+#search {
+    width: 50vw;
+}
+
+.menu-burger{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #ddd; */
+}
+
+.menu-burger div{
+    width: 100%;
+    height: 03px;
+    background-color: #fff;
+    margin: 5px auto;
+    vertical-align: center;
+}
+
+.menu {
+    position: absolute;
+    right: 19px;
+    top: 55px;
+    cursor: context-menu;
+    background: lightsteelblue;
+
+
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    padding: 15px;
+    margin: 0 15px;
+}

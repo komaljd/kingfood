@@ -1,0 +1,22 @@
+#root{
+    /* background-color: #000; */
+    /* background: linear-gradient(10deg, rgb(14, 14, 14) 20%, #e9db13 20%,rgb(14, 14, 14) 80%); */
+    background: linear-gradient(10deg, rgb(42 42 42) 25%, #000000 50%,rgb(28 28 28) 84%);
+    color: #fff;
+    
+    
+}
+
+.section{
+    padding: 30px 0px;
+}
+
+.section h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.imgSize{
+    width: 100%;
+}

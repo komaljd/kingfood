@@ -1,0 +1,8 @@
+.brandDetailSection.bgImg{
+    background: url(https://c.wallhere.com/photos/10/a1/simple_background_food_burger_ketchup_meat_vegetables_tomatoes_Fries-1747331.jpg!d) 
+                no-repeat 100% 40%;
+    background-size: cover;
+    padding: 100px;
+ }
+
+ .brandDetailSection h1{ font-size: 6rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}

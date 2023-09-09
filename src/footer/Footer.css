@@ -1,0 +1,38 @@
+
+
+
+
+.box-1{
+    /* background-color: #000; */
+    color: #B3B3B3;
+}
+.card-body h5{
+    margin-top: 30px;
+}
+
+.box-2{
+    /* background-color: #000; */
+    color: #B3B3B3;
+}
+
+.box-1 img{
+    height: 60%;
+}
+.footer{
+    /* background-color:#000; */
+    color: #fff;
+    padding: 2rem 0;
+}
+.ft-1 div{
+    font-weight: 500;
+    font-family: cursive;
+    padding: 0.5rem 0;
+    font-size: 30px;
+}
+.ft-1 span{
+    color: gold;
+}
+.footer-icons i{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
