@@ -10,3 +10,26 @@ h3{
     width:100px;
     height:100px;
 }
+
+.imgSize{
+    width:100%;
+}
+
+.menucategoryimg img{
+    width:80px;
+    height:80px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.menucategoryinnerimg img{
+    width:200px;
+    height:200px;
+}
+
+.menucategoryimg img:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

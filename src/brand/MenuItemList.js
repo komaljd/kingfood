@@ -1,16 +1,10 @@
-import fooditems from "../hotels/FoodItem";
+import fooditems from "../hotelsData/FoodItemData";
 
 const MenuItemList = ({menuid,catid}) =>{
-    console.log('catid is:'+catid);
-    //Find the hotel with dynamic hotel id 
-    var foundHotel = fooditems.find((hotel) => hotel.hotel_id == menuid);
-    //Found the food category with dynamic selected food_item Id withing found hotel
-    // car foundCategoryId = foundHotel && 
-    return(
-        <>
-            {foodItemListfilter}
-        </>
-    )
+   // Find the hotel with hotel_id 1
+
+  // Find the food category with id 1 within the found hotel
+
 }
 
 export default MenuItemList;

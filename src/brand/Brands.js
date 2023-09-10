@@ -1,5 +1,5 @@
 import BrandList from "./BrandList";
-import hotels from "../hotels/HotelsData";
+import hotels from "../hotelsData/HotelsData";
 import './Brand.css';
 
 const Menu = () =>{  // Parent Component Brand  

@@ -1,15 +1,15 @@
 // import { useState } from "react";
-import { Link } from "react-router-dom";
-import fooditems from "../hotels/FoodItem";
+// import { Link } from "react-router-dom";
+import fooditems from "../hotelsData/FoodItemData";
 import { useState } from "react";
 import MenuItemList from "./MenuItemList";
 
 const MenuCategory = ({menuid}) =>{
-    const [categoreyid, setCategoreyId] = useState(0);
+    const [categoreyid, setCategoreyId] = useState(1);
 
    const handleClickCategoryId = (e) =>{
-    setCategoreyId(e.target.value);
-    // alert(e.target.value);
+    // setCategoreyId(e.target.value);
+    alert(e.target.value);
     }
 
     //food Item array fetch

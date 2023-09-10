@@ -5,18 +5,15 @@ const fooditems =[
         food_category:[
             {
             id:1,
-            name:'burger',
-            food_items:[' burger from','non-veg burger form']
+            name:'burger'
             },
             {
             id:2,
-            name:'fries',
-            food_items:['peri peri']
+            name:'fries'
             },
             {
             id:3,
-            name:'Cock',
-            food_items:['peri peri']
+            name:'Cock'
             }            
         ]
     },

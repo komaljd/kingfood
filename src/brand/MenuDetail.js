@@ -3,13 +3,13 @@ import './menu.css';
 import { useParams } from "react-router-dom";
 
 import InnerPageBanner from "../component/InnerPageBanner";
-import hotels from '../hotels/HotelsData';
+import hotels from '../hotelsData/HotelsData';
 import MenuCategory from './MenuCategory';
 import MenuItemList from './MenuItemList';
 
-const Menu = () =>{
-    const {menuid} = useParams();
-    const holte_data = hotels.find(hotel=> hotel.id == menuid);
+const MenuDetail = () =>{
+    const {menudetailid} = useParams();
+    const holte_data = hotels.find(hotel=> hotel.id == menudetailid);
     return(
         <>
         { holte_data &&
@@ -46,4 +46,4 @@ const Menu = () =>{
     );
 }
 
-export default Menu;
+export default MenuDetail;
