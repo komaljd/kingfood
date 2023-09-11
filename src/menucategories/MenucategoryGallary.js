@@ -10,6 +10,7 @@ const MenuCategoryGallary=({menucatid})=>{
             </div>
             <div className="row">
                 {
+                    
                     <MenuCategoryInnerList menucatiddata={menucatid}/>
                 }
             </div>

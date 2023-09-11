@@ -4,6 +4,7 @@ import Home from "../component/Home";
 import Login from "../component/Login";
 import Cart from "../component/Cart";
 import MenuDetail from "../brand/MenuDetail";
+import MneuCategoryInner from "../menucategories/MenuCategoryInner";
 
 const RouterMain = () =>{
     return(
@@ -13,7 +14,17 @@ const RouterMain = () =>{
                     <Route index element={<Home/>}></Route>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/cart" element={<Cart/>}/>
-                    <Route path=":menudetailid" element={<MenuDetail/>}/>
+                    {/* <Route path="" element={<MneuCategoryInner/>} >
+                        <Route path=":menucatname" element={<MneuCategoryInner/>} />
+                    </Route> */}
+                    {/* <Route path="/MenuDetail" element={<MenuDetail/>} >
+                        <Route path=":menudetailid" element={<MenuDetail/>}/>
+                    </Route> */}
+
+                    <Route path="/menuDetail/:menudetailid" element={<MenuDetail/>}/>
+                    <Route path="/MenuCategoryInner/:menucatname" element={<MneuCategoryInner/>} />
+                   
+                   
                 </Route>
             </Routes>
         </BrowserRouter>

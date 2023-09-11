@@ -7,7 +7,7 @@ const Menu = () =>{  // Parent Component Brand
     
     // Only 6 Item will Display on Home Page
     var brandsItems = hotels.slice(0,6).map(hotelbrand=> hotelbrand.isBrand &&
-                                        <BrandList menuid={hotelbrand.id} brandsdata={hotelbrand} brands="Brands"/>);
+                                        <BrandList menudetailid={hotelbrand.id} brandsdata={hotelbrand} brands="Brands"/>);
 
     //Render all item in parent div
     return(

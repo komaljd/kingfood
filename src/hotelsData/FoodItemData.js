@@ -1,3 +1,5 @@
+// import pizza1 from '../images/food-item/pizza/pizza1.jpg';
+
 const fooditems =[
     {
         id:1,
@@ -5,26 +7,109 @@ const fooditems =[
         food_category:[
             {
             id:1,
-            name:'burger'
+            name:'Burger',
+            price:200
             },
             {
             id:2,
-            name:'fries'
+            name:'Pizza',
+            price:200
             },
             {
             id:3,
-            name:'Cock'
-            }            
+            name:'Sandwhich',
+            price:200
+            },
+            {
+            id:4,
+            name:'Ice-Cream',
+            price:200
+            },
+            {
+            id:5,
+            name:'Biryani',
+            price:200
+            },
+            {
+            id:6,
+            name:'Cake',
+            price:200
+            }             
         ]
     },
     {
         id:2,
         hotel_id:2,
-        food_category:[{
-            id:1,
-            name:'ice-cream'
-        }]
-    }    
+        food_category:[
+            {
+                id:1,
+                name:'Burger',
+                price:200
+                },
+                {
+                id:2,
+                name:'Pizza',
+                price:200
+                },
+                {
+                id:3,
+                name:'Sandwhich',
+                price:200
+                },
+                {
+                id:4,
+                name:'Cake',
+                price:200
+                }  
+        ]
+    }, 
+    {
+        id:3,
+        hotel_id:3,
+        food_category:[
+            {
+                id:1,
+                name:'Pizza',
+                price:200
+                },
+                {
+                id:2,
+                name:'Biryani',
+                price:200
+                },
+                {
+                id:3,
+                name:'Sandwhich',
+                price:200
+                } 
+        ]
+    },
+    {
+        id:4,
+        hotel_id:4,
+        food_category:[
+            {
+                id:1,
+                name:'Burger',
+                price:200
+                },
+                {
+                id:2,
+                name:'Biryani',
+                price:200
+                },
+                {
+                id:3,
+                name:'Cake',
+                price:200
+                },
+                {
+                id:4,
+                name:'Biryani',
+                price:200
+                }  
+        ]
+    }   
 ]
 
 export default fooditems;

@@ -3,7 +3,7 @@ import Brands from '../brand/Brands';
 import BestSeller from '../bestseller/BestSeller';
 import Contact from '../contactus/Contact';
 import Footer from '../footer/Footer';
-import MenuCategory from '../brand/MenuCategory';
+import MenuCategory from '../menucategories/MenuCategory';
 
 const Home = () =>{
     return(
