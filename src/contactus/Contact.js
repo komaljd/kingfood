@@ -2,7 +2,7 @@ import './contact.css';
 const Contact= () =>{
     return(
     <>
-        <section className="contact-sec sec-pad section">
+        <section className="contact-sec sec-pad section" id="contact">
         <div className="container">
             <div className="row">
             <div className="col-md-6">

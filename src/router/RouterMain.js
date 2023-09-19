@@ -5,6 +5,7 @@ import Login from "../component/Login";
 import Cart from "../component/Cart";
 import MenuDetail from "../brand/MenuDetail";
 import MneuCategoryInner from "../menucategories/MenuCategoryInner";
+import Menu from "../brand/Menu";
 
 const RouterMain = () =>{
     return(
@@ -23,8 +24,7 @@ const RouterMain = () =>{
 
                     <Route path="/menuDetail/:menudetailid" element={<MenuDetail/>}/>
                     <Route path="/MenuCategoryInner/:menucatname" element={<MneuCategoryInner/>} />
-                   
-                   
+                    <Route path="/menu" element={<Menu/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

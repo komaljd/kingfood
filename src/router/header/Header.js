@@ -28,8 +28,13 @@ export default function Header() {
 
                     </div>
                     <div className="cart">
-                        <input id="search" className="form-control me-2" type="search" placeholder="Search Here" aria-label="Search" />
-                        <span><Link to="/cart"> <i className="fa-solid fa-cart-shopping"></i></Link></span>
+                        <input id="search" className="form-control me-2" type="search"
+                               placeholder="Search Here" aria-label="Search" />
+                        <span>
+                        <Link to="/cart" className="navbar-link cart-trolley--link">
+                           {/* <FooditemCart className="cart-trolley"/> */}
+                        <i className="fa-solid fa-cart-shopping cart-total--item"> 10</i>
+                        </Link></span>
                         <span><i className="fa-solid fa-location-dot"></i></span>
                         <span><Link to="/login">  <i className="fa-regular fa-user"></i></Link></span>
                         <span>

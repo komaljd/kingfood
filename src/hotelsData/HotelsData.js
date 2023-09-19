@@ -4,6 +4,7 @@ import lapinopizza from '../images/brands/lapinopizza.jpg';
 import kwality_walls from '../images/brands/kwality_walls.jpg'
 import kfc from '../images/brands/kfc.jpg';
 import pizza_hut from '../images/brands/pizza-hut.jpg';
+import imperial from '../images/brands/imperial.jpg';
 
 
 const hotels= [
@@ -58,9 +59,9 @@ const hotels= [
     },
     {
         id:7,
-        hotelname:'Shabri',
-        image:pizza_hut,
-        imagealt:'Shabri',
+        hotelname:'Imperial',
+        image:imperial,
+        imagealt:'imperial',
         isBrand:false,
         locationId:'2'
     }

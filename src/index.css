@@ -13,6 +13,11 @@ ul{
   list-style: none;
 }
 
+a,a:focus, a:focus-visible{
+  outline: none;
+  text-decoration: none;
+}
+
 .btn-custom{
   border: 1px solid #B3B3B3;
   color:#fff;

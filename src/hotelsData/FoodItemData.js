@@ -7,33 +7,27 @@ const fooditems =[
         food_category:[
             {
             id:1,
-            name:'Burger',
-            price:200
+            name:'Burger'
             },
             {
             id:2,
-            name:'Pizza',
-            price:200
+            name:'Pizza'
             },
             {
             id:3,
-            name:'Sandwhich',
-            price:200
+            name:'Sandwhich'
             },
             {
             id:4,
-            name:'Ice-Cream',
-            price:200
+            name:'Ice-Cream'
             },
             {
             id:5,
-            name:'Biryani',
-            price:200
+            name:'Biryani'
             },
             {
             id:6,
-            name:'Cake',
-            price:200
+            name:'Cake'
             }             
         ]
     },
@@ -43,24 +37,16 @@ const fooditems =[
         food_category:[
             {
                 id:1,
-                name:'Burger',
-                price:200
+                name:'Cone'
                 },
                 {
                 id:2,
-                name:'Pizza',
-                price:200
+                name:'Family Pack'
                 },
                 {
                 id:3,
-                name:'Sandwhich',
-                price:200
-                },
-                {
-                id:4,
-                name:'Cake',
-                price:200
-                }  
+                name:'Cup'
+                } 
         ]
     }, 
     {
@@ -69,18 +55,15 @@ const fooditems =[
         food_category:[
             {
                 id:1,
-                name:'Pizza',
-                price:200
+                name:'Pizza'
                 },
                 {
                 id:2,
-                name:'Biryani',
-                price:200
+                name:'Biryani'
                 },
                 {
                 id:3,
-                name:'Sandwhich',
-                price:200
+                name:'Sandwhich'
                 } 
         ]
     },
@@ -90,24 +73,16 @@ const fooditems =[
         food_category:[
             {
                 id:1,
-                name:'Burger',
-                price:200
+                name:'Family Pack'
                 },
                 {
                 id:2,
-                name:'Biryani',
-                price:200
+                name:'Delights In A CUP'
                 },
                 {
                 id:3,
-                name:'Cake',
-                price:200
-                },
-                {
-                id:4,
-                name:'Biryani',
-                price:200
-                }  
+                name:'Feast'
+                }
         ]
     }   
 ]
