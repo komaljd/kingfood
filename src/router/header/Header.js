@@ -2,7 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import './Header.css';
-import NavMenu from './NavMenu'
+import NavMenu from './NavMenu';
+
+    import LocationPopup from "./LocationPopup";
 
 // import logo from '../images/logo.jpg'
 
@@ -19,7 +21,7 @@ export default function Header() {
     }
 
     return (
-        <div className="main-header container">
+        <div className="main-header container-fluid">
 
             <nav className="navbar navbar-expand-lg navbar-light -bg-black">
                 <div className="container-fluid">
@@ -35,7 +37,7 @@ export default function Header() {
                            {/* <FooditemCart className="cart-trolley"/> */}
                         <i className="fa-solid fa-cart-shopping cart-total--item"> 10</i>
                         </Link></span>
-                        <span><i className="fa-solid fa-location-dot"></i></span>
+                        <span data-toggle="modal" data-target="#exampleModalCenter" id="locate"><i class="fa-solid fa-location-dot"></i></span>
                         <span><Link to="/login">  <i className="fa-regular fa-user"></i></Link></span>
                         <span>
                             <div onClick={hideShow} className="menu-burger">
@@ -49,6 +51,12 @@ export default function Header() {
                        <NavMenu/>
                    </div>
                    }
+                    <div className=" modal fade " id="exampleModalCenter" tabIndex="-1"
+                     role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 
+                        <LocationPopup />
+                    </div>
+
                 </div>
             </nav>
             <Outlet/>

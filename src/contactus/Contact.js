@@ -3,7 +3,6 @@ const Contact= () =>{
     return(
     <>
         <section className="contact-sec sec-pad section" id="contact">
-        <div className="container">
             <div className="row">
             <div className="col-md-6">
                 <div className="contact-detail">
@@ -58,7 +57,6 @@ const Contact= () =>{
                 </form>
             </div>
             </div>
-        </div>
         </section>
     </>
     )

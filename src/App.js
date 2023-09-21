@@ -4,9 +4,9 @@ import RouterMain from './router/RouterMain';
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <RouterMain/>
-    </>
+    </div>
   );
 }
 

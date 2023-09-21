@@ -6,6 +6,9 @@ import Cart from "../component/Cart";
 import MenuDetail from "../brand/MenuDetail";
 import MneuCategoryInner from "../menucategories/MenuCategoryInner";
 import Menu from "../brand/Menu";
+import PageNotFound from "../component/PageNotFound";
+import Footer from "../footer/Footer";
+import Checkout from "../checkout/Checkout";
 
 const RouterMain = () =>{
     return(
@@ -21,12 +24,16 @@ const RouterMain = () =>{
                     {/* <Route path="/MenuDetail" element={<MenuDetail/>} >
                         <Route path=":menudetailid" element={<MenuDetail/>}/>
                     </Route> */}
-
                     <Route path="/menuDetail/:menudetailid" element={<MenuDetail/>}/>
                     <Route path="/MenuCategoryInner/:menucatname" element={<MneuCategoryInner/>} />
-                    <Route path="/menu" element={<Menu/>}/>
+                    <Route path="/menu" element={<Menu/>}>
+                    <Route path="/menu/:locationid" element={<Menu/>}/>
+                    </Route>    
+                    <Route path="/checkout" element={<Checkout/>}/>
+                    <Route path='*' element={<PageNotFound/>}/>  
                 </Route>
             </Routes>
+           <Footer/>
         </BrowserRouter>
     )
 }

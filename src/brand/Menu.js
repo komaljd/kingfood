@@ -1,4 +1,3 @@
-import Footer from "../footer/Footer";
 import MenuList from "./menu/MenuList";
 
 const Menu = () =>{
@@ -10,7 +9,6 @@ const Menu = () =>{
                <MenuList/>
             </div>
         </div>
-             <Footer/>
         </>
     )
 }

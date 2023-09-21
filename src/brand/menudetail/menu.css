@@ -61,7 +61,7 @@
   outline: none;
 }
 
-i {
+.HotelFoodItemInput i {
   position: relative;
   right: -25px;
   z-index: 4

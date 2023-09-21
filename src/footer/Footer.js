@@ -9,7 +9,6 @@ function Footer() {
     return (
         <>
         <div className="footer">
-            <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-lg-5 col-12 ft-1">
                         <Link to="" onClick={()=>{
@@ -23,16 +22,10 @@ function Footer() {
                         <h5>Menu Name</h5>
                         <ul>
                             <li className="menu-item"> 
-                                <a className="item-link" href="/">Biryani</a>
+                                <a className="item-link" href="/">Contact Us</a>
                             </li>
                             <li className="menu-item"> 
-                                <a className="item-link" href="/">Burger</a>
-                            </li>
-                            <li className="menu-item"> 
-                                <a className="item-link" href="/">Pizza</a>
-                            </li>
-                            <li className="menu-item"> 
-                                <a className="item-link" href="/">KFC Chicken</a>
+                                <a className="item-link" href="/">Menu</a>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +40,6 @@ function Footer() {
                         <p><i className="fa-solid fa-envelope"></i> KingFood@gmail.com</p>
                     </div>
                 </div>
-            </div>
         </div>
         </>
     );
